@@ -1,0 +1,618 @@
+<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
+<title>Day Night Outcall Massage Spa</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Inter:wght@400;500;600&display=swap">
+<style>
+/* Layout concept: editorial single-page site, arched hero image, calm ivory/sage palette, hash-routed pages. */
+:root{
+  --bg:#faf6ee; --bg2:#f4ede0; --card:#fffdf8; --fg:#3b2a20; --fg2:#6b5648;
+  --line:rgba(59,42,32,.15); --accent:#5f7058; --accent-soft:#eadfc8; --taupe:#b8a99a;
+  --btn:#3b2a20; --btn-fg:#faf6ee; --wa:#128c4a; --wa-fg:#ffffff;
+  --dark:#3b2a20; --dark-fg:#faf6ee; --danger:#9b2c2c; --danger-bg:#fbeceb; --ok:#2f6b43; --ok-bg:#e9f4ec;
+  --shadow:0 18px 40px -22px rgba(59,42,32,.4);
+  --display:'Cormorant Garamond',Georgia,'Times New Roman',serif;
+  --body:Inter,system-ui,-apple-system,'Segoe UI',Roboto,sans-serif;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#1f1712; --bg2:#271d16; --card:#2d221a; --fg:#f1e8d8; --fg2:#c4b5a2;
+  --line:rgba(241,232,216,.16); --accent:#a9bba0; --accent-soft:#3b2f24; --taupe:#7d6e60;
+  --btn:#eadfc8; --btn-fg:#2a1d15; --wa:#2fb36a; --wa-fg:#0f2a1a;
+  --dark:#150f0b; --dark-fg:#f1e8d8; --danger:#f0a7a3; --danger-bg:#3d1f1d; --ok:#9fd5b0; --ok-bg:#1e3226;
+  --shadow:0 18px 40px -22px rgba(0,0,0,.7); color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#1f1712; --bg2:#271d16; --card:#2d221a; --fg:#f1e8d8; --fg2:#c4b5a2;
+  --line:rgba(241,232,216,.16); --accent:#a9bba0; --accent-soft:#3b2f24; --taupe:#7d6e60;
+  --btn:#eadfc8; --btn-fg:#2a1d15; --wa:#2fb36a; --wa-fg:#0f2a1a;
+  --dark:#150f0b; --dark-fg:#f1e8d8; --danger:#f0a7a3; --danger-bg:#3d1f1d; --ok:#9fd5b0; --ok-bg:#1e3226;
+  --shadow:0 18px 40px -22px rgba(0,0,0,.7); color-scheme:dark}
+
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{animation:none!important;transition:none!important}}
+body{margin:0;background:var(--bg);color:var(--fg);font:400 16px/1.7 var(--body);-webkit-font-smoothing:antialiased}
+h1,h2,h3{font-family:var(--display);font-weight:600;line-height:1.08;margin:0 0 .55em;letter-spacing:-.01em;text-wrap:balance}
+h1{font-size:clamp(2.5rem,8vw,4.5rem)} h2{font-size:clamp(2rem,5vw,3rem)} h3{font-size:1.45rem}
+p{margin:0 0 1em} a{color:inherit}
+:focus-visible{outline:3px solid var(--accent);outline-offset:3px;border-radius:6px}
+.wrap{width:100%;max-width:1160px;margin-inline:auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+.narrow{max-width:820px}
+.eyebrow{font-size:.76rem;font-weight:600;letter-spacing:.22em;text-transform:uppercase;color:var(--accent);margin:0 0 1rem}
+.lead{font-size:1.12rem;color:var(--fg2);max-width:60ch}
+.muted{color:var(--fg2)}
+.small{font-size:.88rem;color:var(--fg2)}
+
+/* header */
+.hdr{position:sticky;top:env(safe-area-inset-top,0px);z-index:50;background:color-mix(in srgb,var(--bg) 85%,transparent);-webkit-backdrop-filter:blur(14px);backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}
+.hdr .wrap{display:flex;align-items:center;justify-content:space-between;gap:12px;min-height:66px}
+.brand{display:flex;align-items:center;gap:.7rem;text-decoration:none}
+.mark{width:34px;height:34px;border-radius:11px;background:var(--fg);position:relative;flex:none}
+.mark::after{content:'';position:absolute;inset:8px 11px;background:#8a9a82;border-radius:60% 60% 60% 60%/80% 80% 40% 40%}
+.bt{display:flex;flex-direction:column;line-height:1}
+.bn{font-family:var(--display);font-size:1.45rem;font-weight:600}
+.bs{font-size:.6rem;letter-spacing:.18em;text-transform:uppercase;color:var(--fg2);margin-top:3px}
+.nav{display:none;gap:1.6rem;align-items:center}
+.nav a{text-decoration:none;font-size:.92rem;font-weight:500;padding:.3rem 0;border-bottom:1.5px solid transparent}
+.nav a[aria-current="page"]{color:var(--accent);border-color:var(--accent)}
+.hbtns{display:flex;gap:.5rem;align-items:center}
+.ibtn{width:44px;height:44px;border-radius:50%;border:1px solid var(--line);background:var(--card);color:var(--fg);display:inline-flex;align-items:center;justify-content:center;cursor:pointer;font:inherit}
+.menu{display:none;position:sticky;top:calc(66px + env(safe-area-inset-top,0px));z-index:49;background:var(--bg);border-bottom:1px solid var(--line)}
+.menu.open{display:block}
+.menu a{display:block;padding:.9rem 0;border-bottom:1px solid var(--line);text-decoration:none;font-weight:500}
+@media(min-width:900px){.nav{display:flex}.menu,.menu.open{display:none}#menuBtn{display:none}}
+
+/* buttons */
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:.5rem;min-height:48px;padding:.7rem 1.5rem;border-radius:999px;border:1.5px solid transparent;font:600 .95rem/1 var(--body);text-decoration:none;cursor:pointer;transition:transform .2s,box-shadow .2s}
+.btn:hover{transform:translateY(-2px);box-shadow:0 8px 20px -14px rgba(0,0,0,.5)}
+.btn-p{background:var(--btn);color:var(--btn-fg)}
+.btn-w{background:var(--wa);color:var(--wa-fg)}
+.btn-o{border-color:var(--fg);color:var(--fg);background:transparent}
+.btn-l{background:var(--dark-fg);color:var(--dark)}
+.btn-block{width:100%}
+.row{display:flex;flex-wrap:wrap;gap:.8rem;margin-top:1.6rem}
+.row.c{justify-content:center}
+.tlink{display:inline-flex;gap:.4rem;align-items:center;font-weight:600;color:var(--accent);text-decoration:none;border-bottom:1.5px solid currentColor;padding-bottom:2px}
+
+/* pages */
+.page{display:none} .page.on{display:block}
+.pagehead{padding:3.2rem 0 2.4rem;background:var(--bg2);border-bottom:1px solid var(--line)}
+.pagehead h1{font-size:clamp(2.2rem,7vw,3.6rem)}
+.sec{padding:4.5rem 0} .tint{background:var(--bg2)}
+.shead{text-align:center;margin-bottom:2.4rem} .shead .lead{margin-inline:auto}
+.split{display:grid;gap:2rem;align-items:start}
+@media(min-width:900px){.sec{padding:6rem 0}.split{grid-template-columns:1fr 1.2fr;gap:4rem}.split.m{grid-template-columns:1fr 1fr;align-items:center}}
+
+/* hero */
+.hero{padding:2.4rem 0 4rem;background:radial-gradient(900px 500px at 85% 8%,color-mix(in srgb,#8a9a82 30%,transparent),transparent 60%),radial-gradient(700px 500px at 0% 100%,color-mix(in srgb,var(--taupe) 35%,transparent),transparent 60%),var(--bg)}
+.hero .wrap{display:grid;gap:2.4rem;align-items:center}
+.hero h1 em{font-style:italic;color:var(--accent);font-weight:500}
+.hnote{display:flex;gap:.5rem;align-items:center;margin-top:1.3rem;font-size:.92rem;color:var(--fg2)}
+.hv{position:relative;width:100%;max-width:470px;margin-inline:auto}
+.arch{border-radius:999px 999px 28px 28px;overflow:hidden;aspect-ratio:4/5;box-shadow:var(--shadow);background:var(--accent-soft)}
+.arch svg{width:100%;height:100%;display:block}
+.badge{position:absolute;left:8px;bottom:26px;display:flex;gap:.8rem;align-items:center;padding:.8rem 1.1rem;border-radius:18px;background:color-mix(in srgb,var(--card) 78%,transparent);border:1px solid var(--line);-webkit-backdrop-filter:blur(14px);backdrop-filter:blur(14px);box-shadow:var(--shadow)}
+.badge b,.badge span{display:block;line-height:1.3} .badge b{font-size:.95rem} .badge span{font-size:.75rem;color:var(--fg2)}
+.dot{width:10px;height:10px;border-radius:50%;background:var(--accent);flex:none;animation:pulse 2.4s infinite}
+@keyframes pulse{70%{box-shadow:0 0 0 10px transparent}0%{box-shadow:0 0 0 0 color-mix(in srgb,var(--accent) 50%,transparent)}}
+@media(min-width:900px){.hero{padding:4.5rem 0 6rem}.hero .wrap{grid-template-columns:1.1fr .9fr;gap:4rem}.hv{justify-self:end;margin-inline:0}}
+
+/* cards */
+.grid{display:grid;gap:1.3rem;grid-template-columns:1fr}
+@media(min-width:700px){.grid.g2,.grid.g3{grid-template-columns:repeat(2,1fr)}.grid.g4{grid-template-columns:repeat(2,1fr)}}
+@media(min-width:1000px){.grid.g3{grid-template-columns:repeat(3,1fr)}.grid.g4{grid-template-columns:repeat(4,1fr)}}
+.card{background:var(--card);border:1px solid var(--line);border-radius:26px;padding:1.7rem;min-width:0}
+.svc{display:flex;flex-direction:column;gap:.4rem}
+.svc .top{display:flex;justify-content:space-between;gap:.8rem;align-items:flex-start}
+.svc h3{margin:0 0 .3rem}
+.chip{font-size:.72rem;font-weight:600;padding:.25rem .7rem;border-radius:999px;background:var(--accent-soft);color:var(--fg2);white-space:nowrap}
+.meta{margin:.6rem 0 1.1rem;padding-top:1rem;border-top:1px dashed var(--line);display:grid;gap:.5rem;font-size:.92rem}
+.meta div{display:flex;justify-content:space-between;gap:1rem} .meta dt{color:var(--fg2)} .meta dd{margin:0;font-weight:500;text-align:right}
+.svc .tlink{margin-top:auto;align-self:flex-start}
+.ficon{width:46px;height:46px;border-radius:14px;display:inline-flex;align-items:center;justify-content:center;background:var(--accent-soft);color:var(--accent);margin-bottom:1rem}
+.card h3 + p{margin:0;color:var(--fg2);font-size:.95rem}
+.dark{background:var(--dark);color:var(--dark-fg)} .dark .lead,.dark p{color:color-mix(in srgb,var(--dark-fg) 82%,transparent)} .dark .eyebrow{color:#eadfc8}
+.hl{display:grid;gap:2rem;align-items:center}
+@media(min-width:900px){.hl{grid-template-columns:1fr 1fr;gap:4rem}}
+.media{border-radius:26px;overflow:hidden;aspect-ratio:9/7;max-width:100%;box-shadow:var(--shadow)} .media svg{width:100%;height:100%;display:block}
+.rev{text-align:center;max-width:520px;margin-inline:auto;box-shadow:var(--shadow)}
+.stars{display:flex;justify-content:center;gap:.25rem;color:#c9a24a;margin-bottom:.5rem}
+.score{font-family:var(--display);font-size:1.6rem;margin:0} .score b{font-size:3.4rem;font-weight:600}
+
+/* faq */
+.faq{display:grid;gap:.8rem}
+.fq{background:var(--card);border:1px solid var(--line);border-radius:18px;overflow:hidden}
+.fq h3{margin:0;font-family:var(--body);font-size:1rem;letter-spacing:0}
+.fq button{width:100%;display:flex;justify-content:space-between;align-items:center;gap:1rem;text-align:left;background:none;border:0;padding:1.1rem 1.3rem;min-height:56px;font:600 1rem/1.4 var(--body);color:var(--fg);cursor:pointer}
+.fq svg{flex:none;transition:transform .25s}.fq.open svg{transform:rotate(180deg)}
+.fa{padding:0 1.3rem 1.2rem;color:var(--fg2)} .fa p{margin:0}
+
+/* notices / forms */
+.notice{display:flex;gap:.7rem;align-items:flex-start;padding:1rem 1.2rem;border-radius:18px;background:var(--accent-soft);border:1px solid var(--line);font-size:.93rem;margin-bottom:1.6rem}
+.notice svg{flex:none;margin-top:3px}
+.alert{display:flex;gap:.7rem;padding:1rem 1.2rem;border-radius:18px;margin-top:1rem;font-size:.93rem}
+.alert svg{flex:none;margin-top:3px} .alert p,.alert ul{margin:.2rem 0 0}.alert ul{padding-left:1.1rem}
+.alert.err{background:var(--danger-bg);color:var(--danger)} .alert.ok{background:var(--ok-bg);color:var(--ok)}
+.flay{display:grid;gap:2rem;align-items:start}
+@media(min-width:900px){.flay{grid-template-columns:1.4fr 1fr;gap:3rem}}
+.fcard{padding:1.5rem}@media(min-width:600px){.fcard{padding:2.1rem}}
+.field{margin-bottom:1.2rem}
+.frow{display:grid;gap:1.2rem}@media(min-width:560px){.frow{grid-template-columns:1fr 1fr}}
+label{display:block;font-weight:600;font-size:.9rem;margin-bottom:.4rem}
+input[type=text],input[type=tel],input[type=date],input[type=time],select,textarea{width:100%;min-height:50px;padding:.75rem 1rem;border-radius:14px;border:1.5px solid var(--taupe);background:var(--bg);color:var(--fg);font:inherit}
+textarea{resize:vertical}
+input:focus,select:focus,textarea:focus{outline:3px solid color-mix(in srgb,var(--accent) 40%,transparent);border-color:var(--accent)}
+[aria-invalid=true]{border-color:var(--danger)!important}
+.ferr{color:var(--danger);font-size:.85rem;margin:.4rem 0 0}
+.chk{display:flex;gap:.7rem;align-items:flex-start;margin-bottom:.6rem}
+.chk input{width:22px;height:22px;margin-top:3px;accent-color:var(--accent);flex:none}.chk label{font-weight:400;margin:0}
+.chk a{color:var(--accent);font-weight:600}
+.plain{padding-left:1.1rem;color:var(--fg2);font-size:.95rem}
+
+/* contact / misc */
+.info{margin-top:1.8rem;padding-top:1.3rem;border-top:1px solid var(--line)}
+.info h3{font-family:var(--body);font-size:1rem;display:flex;gap:.5rem;align-items:center;margin-bottom:.5rem}
+address{font-style:normal}
+.phone{font-family:var(--display);font-size:2rem;font-weight:600;user-select:all}
+.facts{list-style:none;padding:0;margin:1.3rem 0 0;display:grid;gap:.7rem}.facts li{display:flex;gap:.6rem}.facts svg{flex:none;color:var(--accent);margin-top:4px}
+.ph{display:flex;gap:.8rem;padding:1.1rem;border:1.5px dashed var(--taupe);border-radius:18px;background:var(--card)}
+.ph h3{font-family:var(--body);font-size:1rem;margin:0}.ph p{margin:0;font-size:.9rem;color:var(--fg2)}
+.prose h2{font-size:1.7rem;margin-top:2rem}.prose li{margin-bottom:.3rem}
+.center{text-align:center}.cta{max-width:760px;margin-inline:auto;text-align:center}.cta .lead{margin-inline:auto}
+
+/* footer */
+.ftr{background:var(--dark);color:var(--dark-fg);padding:4rem 0 2rem}
+.ftr .g{display:grid;gap:2.2rem}@media(min-width:800px){.ftr .g{grid-template-columns:1.3fr 1fr 1.4fr}}
+.ftr .fb{font-family:var(--display);font-size:1.8rem;margin-bottom:.4rem}
+.ftr h4{font-size:.76rem;letter-spacing:.2em;text-transform:uppercase;color:#eadfc8;margin:0 0 1rem}
+.ftr ul{list-style:none;margin:0;padding:0;display:grid;gap:.6rem}.ftr a{text-decoration:none;opacity:.9}.ftr a:hover{text-decoration:underline}
+.ftr .bot{margin-top:2.6rem;padding-top:1.3rem;border-top:1px solid rgba(241,232,216,.2);font-size:.85rem;opacity:.75;display:grid;gap:.3rem}.ftr .bot p{margin:0}
+.bar{position:sticky;bottom:0;z-index:40;display:grid;grid-template-columns:1fr 1.4fr;gap:.6rem;padding:.7rem max(14px,env(safe-area-inset-left,0px)) calc(.7rem + env(safe-area-inset-bottom,0px));background:color-mix(in srgb,var(--bg) 92%,transparent);-webkit-backdrop-filter:blur(14px);backdrop-filter:blur(14px);border-top:1px solid var(--line)}
+.bar .btn-ghost{background:var(--card);border-color:var(--line);color:var(--fg)}
+@media(min-width:800px){.bar{display:none}}
+.svgi{width:18px;height:18px;flex:none;stroke:currentColor;fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+</style>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <symbol id="i-phone" viewBox="0 0 24 24"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8.1 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2z"/></symbol>
+    <symbol id="i-chat" viewBox="0 0 24 24"><path d="M21 11.5a8.4 8.4 0 0 1-12.4 7.4L3 20.5l1.7-5.3A8.5 8.5 0 1 1 21 11.5z"/></symbol>
+    <symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></symbol>
+    <symbol id="i-pin" viewBox="0 0 24 24"><path d="M20 10c0 6-8 12-8 12S4 16 4 10a8 8 0 0 1 16 0z"/><circle cx="12" cy="10" r="3"/></symbol>
+    <symbol id="i-home" viewBox="0 0 24 24"><path d="M3 10.5 12 3l9 7.5V21a1 1 0 0 1-1 1h-5v-7H9v7H4a1 1 0 0 1-1-1z"/></symbol>
+    <symbol id="i-down" viewBox="0 0 24 24"><path d="m6 9 6 6 6-6"/></symbol>
+    <symbol id="i-star" viewBox="0 0 24 24"><path d="m12 2 3.1 6.3 6.9 1-5 4.9 1.2 6.8L12 17.8 5.8 21l1.2-6.8-5-4.9 6.9-1z" fill="currentColor"/></symbol>
+    <symbol id="i-menu" viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16"/></symbol>
+    <symbol id="i-x" viewBox="0 0 24 24"><path d="M18 6 6 18M6 6l12 12"/></symbol>
+    <symbol id="i-info" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4M12 8h.01"/></symbol>
+    <symbol id="i-warn" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M12 8v4M12 16h.01"/></symbol>
+    <symbol id="i-ok" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="m8 12 3 3 5-6"/></symbol>
+    <symbol id="i-ext" viewBox="0 0 24 24"><path d="M15 3h6v6M10 14 21 3M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></symbol>
+    <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></symbol>
+    <symbol id="i-leaf" viewBox="0 0 24 24"><path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.5 19 2c1 2 2 4.2 2 8 0 5.5-4.8 10-10 10zM2 21c0-3 1.9-5.2 5.5-6.4 2.7-.9 4.6-2.6 5.5-5.6"/></symbol>
+    <symbol id="i-shield" viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="m9 12 2 2 4-4"/></symbol>
+    <symbol id="i-copy" viewBox="0 0 24 24"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></symbol>
+  </defs>
+</svg>
+
+<header class="hdr">
+  <div class="wrap">
+    <a class="brand" href="#home" aria-label="Day Night Outcall Massage Spa, home">
+      <span class="mark" aria-hidden="true"></span>
+      <span class="bt"><span class="bn">Day Night</span><span class="bs">Outcall Massage Spa</span></span>
+    </a>
+    <nav class="nav" aria-label="Primary">
+      <a href="#home">Home</a><a href="#services">Services</a><a href="#about">About</a><a href="#home-service">Home Service</a><a href="#contact">Contact</a>
+      <a class="btn btn-p" style="min-height:42px;padding:.5rem 1.2rem" href="#home-service">Book a Massage</a>
+    </nav>
+    <div class="hbtns">
+      <a class="ibtn" href="tel:+917091652065" aria-label="Call +91 70916 52065"><svg class="svgi"><use href="#i-phone"/></svg></a>
+      <button class="ibtn" id="menuBtn" type="button" aria-expanded="false" aria-controls="menu" aria-label="Open menu"><svg class="svgi"><use href="#i-menu"/></svg></button>
+    </div>
+  </div>
+</header>
+<div class="menu" id="menu"><div class="wrap">
+  <a href="#home">Home</a><a href="#services">Services</a><a href="#about">About</a><a href="#home-service">Home Service</a><a href="#contact">Contact</a>
+  <p style="padding:1rem 0 1.2rem;margin:0"><a class="btn btn-p" href="#home-service" style="border:0">Book a Massage</a></p>
+</div></div>
+
+<main id="main">
+
+<!-- HOME -->
+<section class="page" id="page-home" data-title="Day Night Outcall Massage Spa | Massage &amp; Spa in Vyasarpadi, Chennai">
+  <div class="hero"><div class="wrap">
+    <div>
+      <p class="eyebrow">Vyasarpadi, Chennai</p>
+      <h1>Slow down. <em>Breathe.</em> Let us come to you.</h1>
+      <p class="lead">Day Night Outcall Massage Spa offers calm massage and spa care in Chennai, with home-service bookings available subject to availability. Reach out any time to arrange your visit.</p>
+      <div class="row">
+        <a class="btn btn-p" href="#home-service">Book a Massage</a>
+        <a class="btn btn-w" href="https://wa.me/917091652065?text=Hello%20Day%20Night%20Outcall%20Massage%20Spa%2C%20I%20would%20like%20to%20ask%20about%20a%20booking." target="_blank" rel="noopener noreferrer"><svg class="svgi"><use href="#i-chat"/></svg> Chat on WhatsApp</a>
+      </div>
+      <p class="hnote"><svg class="svgi"><use href="#i-clock"/></svg> Open 24 hours (per our business listing)</p>
+    </div>
+    <div class="hv">
+      <div class="arch" role="img" aria-label="Calm spa scene with balanced stones and a sage leaf">
+        <svg viewBox="0 0 800 1000" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+          <defs><linearGradient id="hbg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f4ecdc"/><stop offset=".55" stop-color="#e6d8bd"/><stop offset="1" stop-color="#c9d1bf"/></linearGradient>
+          <linearGradient id="hs1" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#b8a99a"/><stop offset="1" stop-color="#8f7f70"/></linearGradient>
+          <linearGradient id="hs2" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#d6c8b4"/><stop offset="1" stop-color="#b3a28d"/></linearGradient>
+          <linearGradient id="hs3" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#8a9a82"/><stop offset="1" stop-color="#667860"/></linearGradient></defs>
+          <rect width="800" height="1000" fill="url(#hbg)"/><circle cx="610" cy="230" r="120" fill="#fffaf0" opacity=".55"/>
+          <g opacity=".55" fill="#8a9a82"><path d="M120 760c30-120 20-220-30-330 70 70 90 190 30 330z"/><path d="M170 780c10-110 60-190 130-250-50 80-60 170-130 250z"/></g>
+          <ellipse cx="400" cy="860" rx="260" ry="26" fill="#3b2a20" opacity=".12"/>
+          <ellipse cx="400" cy="815" rx="190" ry="52" fill="url(#hs1)"/><ellipse cx="410" cy="725" rx="140" ry="42" fill="url(#hs2)"/>
+          <ellipse cx="398" cy="652" rx="98" ry="34" fill="url(#hs3)"/><ellipse cx="404" cy="598" rx="60" ry="24" fill="url(#hs2)"/>
+          <path d="M400 330c70 60 100 140 0 250-100-110-70-190 0-250z" fill="#8a9a82" opacity=".9"/><path d="M400 372c0 60 0 120 0 200" stroke="#eadfc8" stroke-width="4" fill="none" stroke-linecap="round"/>
+        </svg>
+      </div>
+      <div class="badge"><span class="dot" aria-hidden="true"></span><div><b>Open 24 hours</b><span>Confirm availability by chat or call</span></div></div>
+    </div>
+  </div></div>
+
+  <div class="sec"><div class="wrap split">
+    <div><p class="eyebrow">Welcome</p><h2>A quieter way to look after yourself</h2></div>
+    <div>
+      <p>Life in the city moves quickly. Day Night Outcall Massage Spa is a massage and spa business in Vyasarpadi, Chennai, built around giving you a calm space to rest, whether you visit or request a home-service session.</p>
+      <p>We keep things simple: reach us on WhatsApp or by phone, tell us what you are looking for, and we will confirm what is available and the price with you directly.</p>
+      <a class="tlink" href="#about">More about us <svg class="svgi"><use href="#i-arrow"/></svg></a>
+    </div>
+  </div></div>
+
+  <div class="sec tint"><div class="wrap">
+    <div class="shead"><p class="eyebrow">Services</p><h2>Our services</h2><p class="lead">Service names, durations and prices are being confirmed. Ask us for the current menu.</p></div>
+    <div class="grid g3" data-services="3"></div>
+    <p class="center" style="margin-top:2.2rem"><a class="btn btn-o" href="#services">View all services</a></p>
+  </div></div>
+
+  <div class="sec"><div class="wrap">
+    <div class="shead"><p class="eyebrow">Why choose us</p><h2>What you can count on</h2></div>
+    <div class="grid g4">
+      <div class="card"><span class="ficon"><svg class="svgi"><use href="#i-clock"/></svg></span><h3>Open 24 hours</h3><p>Our business listing shows round-the-clock opening. Message or call to confirm a time.</p></div>
+      <div class="card"><span class="ficon"><svg class="svgi"><use href="#i-home"/></svg></span><h3>Home-service bookings</h3><p>Request a visit at your location, subject to availability.</p></div>
+      <div class="card"><span class="ficon"><svg class="svgi"><use href="#i-chat"/></svg></span><h3>Easy to reach</h3><p>Book or ask questions by WhatsApp or phone, in whichever way suits you.</p></div>
+      <div class="card"><span class="ficon"><svg class="svgi"><use href="#i-pin"/></svg></span><h3>Based in Vyasarpadi</h3><p>Find us at Karunanithi Salai Main St, Chennai 600017.</p></div>
+    </div>
+  </div></div>
+
+  <div class="sec dark"><div class="wrap hl">
+    <div class="media" role="img" aria-label="Folded towels and a green sprig, suggesting a relaxing session at home">
+      <svg viewBox="0 0 900 700" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+        <defs><linearGradient id="gbg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#d9d2bd"/><stop offset="1" stop-color="#8a9a82"/></linearGradient></defs>
+        <rect width="900" height="700" fill="url(#gbg)"/><circle cx="720" cy="140" r="90" fill="#fffaf0" opacity=".5"/>
+        <rect x="230" y="470" width="440" height="70" rx="22" fill="#faf6ee"/><rect x="250" y="410" width="400" height="70" rx="22" fill="#f1e8d6"/><rect x="270" y="350" width="360" height="70" rx="22" fill="#faf6ee"/>
+        <path d="M450 350c0-60 10-100 40-140" stroke="#5f7058" stroke-width="5" fill="none" stroke-linecap="round"/>
+        <g fill="#5f7058"><ellipse cx="478" cy="258" rx="14" ry="34" transform="rotate(30 478 258)"/><ellipse cx="440" cy="290" rx="13" ry="30" transform="rotate(-35 440 290)"/><ellipse cx="496" cy="215" rx="11" ry="26" transform="rotate(35 496 215)"/></g>
+      </svg>
+    </div>
+    <div>
+      <p class="eyebrow">Home service</p><h2>Relax where you are most comfortable</h2>
+      <p>Send us a home-service request with your preferred service, date, time and location. We will reply to confirm availability and price. A request is not a confirmed booking until we reply.</p>
+      <div class="row"><a class="btn btn-l" href="#home-service">Request home service</a></div>
+    </div>
+  </div></div>
+
+  <div class="sec"><div class="wrap">
+    <div class="card rev">
+      <div class="stars" aria-hidden="true"><svg class="svgi" style="width:22px;height:22px"><use href="#i-star"/></svg><svg class="svgi" style="width:22px;height:22px"><use href="#i-star"/></svg><svg class="svgi" style="width:22px;height:22px"><use href="#i-star"/></svg><svg class="svgi" style="width:22px;height:22px"><use href="#i-star"/></svg><svg class="svgi" style="width:22px;height:22px;opacity:.45"><use href="#i-star"/></svg></div>
+      <p class="score"><b>4.5</b> / 5</p>
+      <p style="font-weight:600;margin-bottom:.2rem">Based on 22 Google reviews</p>
+      <p class="small">Source: Google listing (figures supplied by the business owner). Figures may change over time.</p>
+      <a class="tlink" href="https://www.google.com/maps/search/?api=1&amp;query=126%2C%20Karunanithi%20Salai%20Main%20St%2C%20Vyasarpadi%2C%20Chennai%2C%20Tamil%20Nadu%20600017%2C%20India" target="_blank" rel="noopener noreferrer">Read reviews on Google Maps <svg class="svgi"><use href="#i-ext"/></svg></a>
+    </div>
+  </div></div>
+
+  <div class="sec tint"><div class="wrap narrow">
+    <div class="shead"><p class="eyebrow">FAQ</p><h2>Common questions</h2></div>
+    <div class="faq" id="faq"></div>
+  </div></div>
+
+  <div class="sec"><div class="wrap cta">
+    <h2>Ready to book or have a question?</h2>
+    <p class="lead">Message us on WhatsApp or call +91 70916 52065. We are listed as open 24 hours.</p>
+    <div class="row c">
+      <a class="btn btn-p" href="tel:+917091652065"><svg class="svgi"><use href="#i-phone"/></svg> Call +91 70916 52065</a>
+      <a class="btn btn-w" href="https://wa.me/917091652065" target="_blank" rel="noopener noreferrer"><svg class="svgi"><use href="#i-chat"/></svg> Chat on WhatsApp</a>
+    </div>
+    <p class="small" style="margin-top:1.2rem">Bookings are confirmed only after the business replies.</p>
+  </div></div>
+</section>
+
+<!-- SERVICES -->
+<section class="page" id="page-services" data-title="Services | Day Night Outcall Massage Spa">
+  <div class="pagehead"><div class="wrap"><p class="eyebrow">Services</p><h1>Massage and spa services</h1><p class="lead">Our service details are being confirmed. Contact us for what is available today.</p></div></div>
+  <div class="sec"><div class="wrap">
+    <p class="notice"><svg class="svgi"><use href="#i-info"/></svg><span>Names, descriptions, durations and prices below are placeholders marked &ldquo;Details to be confirmed&rdquo;. Nothing here is a promise of availability.</span></p>
+    <div class="grid g3" data-services="all"></div>
+  </div></div>
+  <div class="sec tint"><div class="wrap cta">
+    <h2>Ask about the current service list</h2><p class="lead">We will tell you what is available and the price before you confirm.</p>
+    <div class="row c">
+      <a class="btn btn-p" href="tel:+917091652065"><svg class="svgi"><use href="#i-phone"/></svg> Call +91 70916 52065</a>
+      <a class="btn btn-w" href="https://wa.me/917091652065?text=Hello%20Day%20Night%20Outcall%20Massage%20Spa%2C%20could%20you%20share%20your%20current%20services%20and%20prices%3F" target="_blank" rel="noopener noreferrer"><svg class="svgi"><use href="#i-chat"/></svg> Chat on WhatsApp</a>
+    </div>
+  </div></div>
+</section>
+
+<!-- ABOUT -->
+<section class="page" id="page-about" data-title="About | Day Night Outcall Massage Spa">
+  <div class="pagehead"><div class="wrap"><p class="eyebrow">About us</p><h1>Calm care, close to home</h1><p class="lead">Day Night Outcall Massage Spa is a massage and spa business based in Vyasarpadi, Chennai.</p></div></div>
+  <div class="sec"><div class="wrap split m">
+    <div class="media" role="img" aria-label="Soft candle light and leaves in a quiet spa setting">
+      <svg viewBox="0 0 900 700" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+        <defs><linearGradient id="abg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#e9ddc6"/><stop offset="1" stop-color="#b9c4ae"/></linearGradient><radialGradient id="afl" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#fff3cf"/><stop offset="1" stop-color="#fff3cf" stop-opacity="0"/></radialGradient></defs>
+        <rect width="900" height="700" fill="url(#abg)"/><circle cx="470" cy="300" r="170" fill="url(#afl)"/>
+        <rect x="430" y="360" width="80" height="170" rx="14" fill="#f7efde"/><path d="M470 270c24 28 24 56 0 78-24-22-24-50 0-78z" fill="#e8b96a"/>
+        <g fill="#6f8168" opacity=".8"><path d="M150 600c-10-130 30-230 110-300-30 120-30 210-110 300z"/><path d="M230 620c40-110 120-170 220-190-80 50-120 120-220 190z"/><path d="M760 610c20-120-10-210-80-290 10 110 0 190 80 290z"/><path d="M690 630c-30-100-100-160-190-180 70 40 110 110 190 180z"/></g>
+        <rect y="560" width="900" height="140" fill="#cdbfa8" opacity=".55"/>
+      </svg>
+    </div>
+    <div>
+      <h2>Our approach</h2>
+      <p>We want every visit to feel unhurried. That means clear communication, honest information about what is available, and a simple way to reach us at any hour listed on our business profile.</p>
+      <p>We offer massage and spa services, including home-service bookings subject to availability. We confirm services and prices directly with you before anything is booked.</p>
+      <ul class="facts">
+        <li><svg class="svgi"><use href="#i-pin"/></svg> 126, Karunanithi Salai Main St, Vyasarpadi, Chennai, Tamil Nadu 600017, India</li>
+        <li><svg class="svgi"><use href="#i-clock"/></svg> Open 24 hours (as provided by the business listing)</li>
+        <li><svg class="svgi"><use href="#i-home"/></svg> Home-service bookings, subject to availability</li>
+      </ul>
+    </div>
+  </div></div>
+  <div class="sec tint"><div class="wrap narrow">
+    <div class="shead"><p class="eyebrow">Verified information</p><h2>Details to be added</h2></div>
+    <div class="grid g2">
+      <div class="ph"><svg class="svgi" style="color:var(--accent);margin-top:4px"><use href="#i-leaf"/></svg><div><h3>Year established</h3><p>To be confirmed by the business</p></div></div>
+      <div class="ph"><svg class="svgi" style="color:var(--accent);margin-top:4px"><use href="#i-leaf"/></svg><div><h3>Team and therapist details</h3><p>To be confirmed by the business</p></div></div>
+      <div class="ph"><svg class="svgi" style="color:var(--accent);margin-top:4px"><use href="#i-leaf"/></svg><div><h3>Qualifications and certifications</h3><p>To be confirmed by the business</p></div></div>
+      <div class="ph"><svg class="svgi" style="color:var(--accent);margin-top:4px"><use href="#i-leaf"/></svg><div><h3>Hygiene and safety practices</h3><p>To be confirmed by the business</p></div></div>
+    </div>
+  </div></div>
+</section>
+
+<!-- HOME SERVICE -->
+<section class="page" id="page-home-service" data-title="Home Service Booking Request | Day Night Outcall Massage Spa">
+  <div class="pagehead"><div class="wrap"><p class="eyebrow">Home service</p><h1>Request a home-service visit</h1><p class="lead">Fill in the form and we will prepare a WhatsApp message with your request, ready to send.</p></div></div>
+  <div class="sec"><div class="wrap flay">
+    <form class="card fcard" id="bookForm" novalidate aria-describedby="formNote">
+      <p class="notice" id="formNote"><svg class="svgi"><use href="#i-shield"/></svg><span>Submitting this form does <strong>not</strong> confirm a booking and nothing is saved on this website. It prepares a WhatsApp message. Your request is confirmed only when the business replies and agrees the details with you.</span></p>
+      <div id="errSummary" role="alert"></div>
+      <div class="field"><label for="name">Your name</label><input id="name" name="name" type="text" autocomplete="name" required><p class="ferr" id="name-error" hidden></p></div>
+      <div class="field"><label for="phone">Phone number</label><input id="phone" name="phone" type="tel" inputmode="tel" autocomplete="tel" placeholder="98765 43210" required><p class="ferr" id="phone-error" hidden></p></div>
+      <div class="field"><label for="service">Requested service</label><select id="service" name="service" required></select><p class="ferr" id="service-error" hidden></p></div>
+      <div class="frow">
+        <div class="field"><label for="date">Preferred date</label><input id="date" name="date" type="date" required><p class="ferr" id="date-error" hidden></p></div>
+        <div class="field"><label for="time">Preferred time</label><input id="time" name="time" type="time" required><p class="ferr" id="time-error" hidden></p></div>
+      </div>
+      <div class="field"><label for="location">Service location</label><textarea id="location" name="location" rows="3" autocomplete="street-address" placeholder="Area, street and landmark" required></textarea><p class="ferr" id="location-error" hidden></p></div>
+      <div class="chk"><input id="consent" name="consent" type="checkbox"><label for="consent">I have read the <a href="#privacy">Privacy Policy</a> and agree to my details being sent to the business through WhatsApp.</label></div>
+      <p class="ferr" id="consent-error" hidden></p>
+      <button class="btn btn-w btn-block" type="submit" style="margin-top:.6rem"><svg class="svgi"><use href="#i-chat"/></svg> Prepare WhatsApp request</button>
+      <div id="result" aria-live="polite"></div>
+    </form>
+    <aside class="card fcard">
+      <h2 style="font-size:2rem">Prefer to chat or call?</h2>
+      <p class="muted">We are listed as open 24 hours; please confirm availability.</p>
+      <div class="row" style="margin-top:1rem">
+        <a class="btn btn-p" href="tel:+917091652065"><svg class="svgi"><use href="#i-phone"/></svg> Call</a>
+        <a class="btn btn-w" href="https://wa.me/917091652065" target="_blank" rel="noopener noreferrer"><svg class="svgi"><use href="#i-chat"/></svg> WhatsApp</a>
+      </div>
+      <h3 style="margin-top:1.8rem;font-size:1.3rem">Good to know</h3>
+      <ul class="plain"><li>Home-service is subject to availability in your area.</li><li>Prices and service details are confirmed by the business before booking.</li><li>Please do not share sensitive health information in your request.</li></ul>
+    </aside>
+  </div></div>
+</section>
+
+<!-- CONTACT -->
+<section class="page" id="page-contact" data-title="Contact | Day Night Outcall Massage Spa">
+  <div class="pagehead"><div class="wrap"><p class="eyebrow">Contact</p><h1>Get in touch</h1><p class="lead">Call or message us to ask a question or arrange a visit.</p></div></div>
+  <div class="sec"><div class="wrap split">
+    <div>
+      <h2>Talk to us</h2>
+      <p class="phone" id="phoneText">+91 70916 52065</p>
+      <div class="row" style="margin-top:.6rem">
+        <a class="btn btn-p" href="tel:+917091652065"><svg class="svgi"><use href="#i-phone"/></svg> Call now</a>
+        <a class="btn btn-w" href="https://wa.me/917091652065" target="_blank" rel="noopener noreferrer"><svg class="svgi"><use href="#i-chat"/></svg> Chat on WhatsApp</a>
+        <button class="btn btn-o" type="button" id="copyPhone"><svg class="svgi"><use href="#i-copy"/></svg> <span id="copyLabel">Copy number</span></button>
+      </div>
+      <div class="info"><h3><svg class="svgi"><use href="#i-pin"/></svg> Address</h3>
+        <address>126, Karunanithi Salai Main St,<br>Vyasarpadi, Chennai,<br>Tamil Nadu 600017, India</address>
+        <p style="margin-top:.8rem"><a class="tlink" href="https://www.google.com/maps/search/?api=1&amp;query=126%2C%20Karunanithi%20Salai%20Main%20St%2C%20Vyasarpadi%2C%20Chennai%2C%20Tamil%20Nadu%20600017%2C%20India" target="_blank" rel="noopener noreferrer">Open in Google Maps <svg class="svgi"><use href="#i-ext"/></svg></a></p>
+      </div>
+      <div class="info"><h3><svg class="svgi"><use href="#i-clock"/></svg> Business hours</h3>
+        <p style="margin-bottom:.3rem"><strong>Open 24 hours</strong></p>
+        <p class="muted">As provided by the business listing. Please message or call to confirm availability before you book.</p>
+      </div>
+    </div>
+    <div class="card" style="padding:2rem">
+      <h3>Find us</h3>
+      <p class="muted">A live map can't be embedded on this page, so use the link to open the location in Google Maps.</p>
+      <a class="btn btn-p" href="https://www.google.com/maps/search/?api=1&amp;query=126%2C%20Karunanithi%20Salai%20Main%20St%2C%20Vyasarpadi%2C%20Chennai%2C%20Tamil%20Nadu%20600017%2C%20India" target="_blank" rel="noopener noreferrer"><svg class="svgi"><use href="#i-pin"/></svg> Open map</a>
+    </div>
+  </div></div>
+</section>
+
+<!-- PRIVACY -->
+<section class="page" id="page-privacy" data-title="Privacy Policy | Day Night Outcall Massage Spa">
+  <div class="pagehead"><div class="wrap"><p class="eyebrow">Legal</p><h1>Privacy Policy</h1><p class="lead">Last updated: date to be confirmed</p></div></div>
+  <div class="sec"><div class="wrap narrow prose">
+    <p class="notice"><svg class="svgi"><use href="#i-info"/></svg><span><strong>Template notice:</strong> This is a basic, editable template. It has not been reviewed by a lawyer and does not claim compliance with any specific law. The business should review and adapt it before relying on it.</span></p>
+    <h2>1. Who we are</h2><p>This website is operated by Day Night Outcall Massage Spa, 126, Karunanithi Salai Main St, Vyasarpadi, Chennai, Tamil Nadu 600017, India. Contact: +91 70916 52065 (email address to be confirmed).</p>
+    <h2>2. Information we collect</h2><p>When you use the home-service request form, you may provide:</p>
+    <ul><li>your name and phone number;</li><li>the service you are interested in;</li><li>your preferred date and time;</li><li>the location where you would like the visit.</li></ul>
+    <p>Please do not include sensitive health or financial information in your request.</p>
+    <h2>3. How the booking form works</h2><p>This website does not have a booking database. When you submit the form, a WhatsApp message containing the details you entered is prepared for you. It is only sent when you press send in WhatsApp. Information you send through WhatsApp is handled under WhatsApp's own terms and privacy policy.</p>
+    <h2>4. How we use information</h2><p>We use the details you send to reply to your enquiry, check availability, confirm price and arrange the visit. [Business to confirm any other uses, such as record keeping.]</p>
+    <h2>5. Sharing</h2><p>[Business to confirm who may see booking details, for example staff arranging the visit.] We do not sell personal information. [Business to verify this statement.]</p>
+    <h2>6. Retention</h2><p>[Business to confirm how long chat messages and booking details are kept.]</p>
+    <h2>7. Third-party services</h2><p>This website links to WhatsApp and Google Maps. Those services may collect data under their own policies. [Update this section if you add analytics.]</p>
+    <h2>8. Your choices</h2><p>You may contact us to ask about, correct or delete details you have sent. [Business to confirm the process.]</p>
+    <h2>9. Changes</h2><p>We may update this policy and will change the date above when we do.</p>
+  </div></div>
+</section>
+
+<!-- 404 -->
+<section class="page" id="page-notfound" data-title="Page not found | Day Night Outcall Massage Spa">
+  <div class="sec"><div class="wrap narrow center"><p class="eyebrow">404</p><h1>Page not found</h1><p class="lead" style="margin-inline:auto">The page you are looking for does not exist or has moved.</p>
+    <div class="row c"><a class="btn btn-p" href="#home">Back to home</a><a class="btn btn-o" href="#contact">Contact us</a></div></div></div>
+</section>
+</main>
+
+<footer class="ftr"><div class="wrap">
+  <div class="g">
+    <div><p class="fb">Day Night Outcall Massage Spa</p><p style="opacity:.75">Restful massage and spa care, when you need it.</p></div>
+    <div><h4>Explore</h4><ul><li><a href="#services">Services</a></li><li><a href="#about">About</a></li><li><a href="#home-service">Home Service</a></li><li><a href="#contact">Contact</a></li><li><a href="#privacy">Privacy Policy</a></li></ul></div>
+    <div><h4>Get in touch</h4><ul>
+      <li><a href="tel:+917091652065">+91 70916 52065</a></li>
+      <li><a href="https://wa.me/917091652065" target="_blank" rel="noopener noreferrer">WhatsApp</a></li>
+      <li>Open 24 hours</li>
+      <li><address>126, Karunanithi Salai Main St, Vyasarpadi, Chennai, Tamil Nadu 600017, India</address></li></ul></div>
+  </div>
+  <div class="bot"><p>&copy; <span id="yr"></span> Day Night Outcall Massage Spa. All rights reserved.</p><p>Service availability and details are confirmed directly with the business.</p></div>
+</div></footer>
+
+<div class="bar" role="region" aria-label="Quick contact">
+  <a class="btn btn-ghost" href="tel:+917091652065" aria-label="Call +91 70916 52065"><svg class="svgi"><use href="#i-phone"/></svg> Call</a>
+  <a class="btn btn-w" href="https://wa.me/917091652065?text=Hello%20Day%20Night%20Outcall%20Massage%20Spa%2C%20I%20would%20like%20to%20ask%20about%20a%20booking." target="_blank" rel="noopener noreferrer" aria-label="Chat on WhatsApp (opens in a new tab)"><svg class="svgi"><use href="#i-chat"/></svg> WhatsApp</a>
+</div>
+
+<script>
+(function(){
+  /* ---- editable business data ---- */
+  var TBC = 'Details to be confirmed';
+  var WA = '917091652065';
+  var BUSINESS = 'Day Night Outcall Massage Spa';
+  var SERVICES = [
+    {name:'Massage service 1 (name to be confirmed)', description:TBC, duration:TBC, price:TBC},
+    {name:'Massage service 2 (name to be confirmed)', description:TBC, duration:TBC, price:TBC},
+    {name:'Spa service (name to be confirmed)', description:TBC, duration:TBC, price:TBC}
+  ];
+  var OTHER = 'Not sure yet, I will discuss on WhatsApp';
+  var FAQS = [
+    ['Which massage and spa services do you offer?','Our full service menu is being finalised on this website. Please message us on WhatsApp or call to ask what is currently available.'],
+    ['Do you offer home-service bookings?','Yes, home-service bookings are offered, subject to availability. Use the home-service request form or message us on WhatsApp to ask whether your area and time can be accommodated.'],
+    ['Are you really open 24 hours?','Our business listing shows that we are open 24 hours. Because availability can vary at different times, we recommend messaging or calling first to confirm a slot.'],
+    ['How much does a session cost?','Prices are not published on this website yet. Please ask us on WhatsApp or by phone and we will share the current price before you confirm.'],
+    ['Is my booking confirmed when I submit the form?','No. The form prepares a WhatsApp message with your request already written. Your booking is only confirmed once the business replies and agrees the details with you.'],
+    ['What personal details do you ask for?','Only what is needed to arrange a visit: your name, phone number, preferred time, chosen service and the location. See our Privacy Policy for more.']
+  ];
+
+  var $ = function(s,r){return (r||document).querySelector(s)};
+  var $$ = function(s,r){return Array.prototype.slice.call((r||document).querySelectorAll(s))};
+  function esc(t){return String(t).replace(/[&<>"']/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]})}
+
+  /* ---- services ---- */
+  function cardHtml(s){
+    return '<article class="card svc"><div class="top"><h3>'+esc(s.name)+'</h3><span class="chip">To be confirmed</span></div>'+
+      '<p class="muted" style="margin-bottom:.4rem">'+esc(s.description)+'</p>'+
+      '<dl class="meta"><div><dt>Duration</dt><dd>'+esc(s.duration)+'</dd></div><div><dt>Price</dt><dd>'+esc(s.price)+'</dd></div></dl>'+
+      '<a class="tlink" href="#home-service">Request this service <svg class="svgi"><use href="#i-arrow"/></svg></a></article>';
+  }
+  $$('[data-services]').forEach(function(el){
+    var n = el.getAttribute('data-services')==='all' ? SERVICES.length : parseInt(el.getAttribute('data-services'),10);
+    el.innerHTML = SERVICES.slice(0,n).map(cardHtml).join('');
+  });
+
+  /* ---- FAQ ---- */
+  var faq = $('#faq');
+  faq.innerHTML = FAQS.map(function(f,i){
+    return '<div class="fq'+(i===0?' open':'')+'"><h3><button type="button" id="fq'+i+'" aria-expanded="'+(i===0)+'" aria-controls="fa'+i+'"><span>'+esc(f[0])+'</span><svg class="svgi"><use href="#i-down"/></svg></button></h3>'+
+      '<div class="fa" id="fa'+i+'" role="region" aria-labelledby="fq'+i+'"'+(i===0?'':' hidden')+'><p>'+esc(f[1])+'</p></div></div>';
+  }).join('');
+  faq.addEventListener('click',function(e){
+    var b = e.target.closest('button'); if(!b) return;
+    var item = b.closest('.fq'), panel = $('#'+b.getAttribute('aria-controls'));
+    var open = b.getAttribute('aria-expanded')==='true';
+    b.setAttribute('aria-expanded', String(!open)); panel.hidden = open; item.classList.toggle('open', !open);
+  });
+
+  /* ---- router (bare #hash only) ---- */
+  var pages = $$('.page'), navLinks = $$('.nav a[href^="#"]:not(.btn)');
+  var menu = $('#menu'), menuBtn = $('#menuBtn');
+  function setMenu(open){
+    menu.classList.toggle('open',open); menuBtn.setAttribute('aria-expanded',String(open));
+    menuBtn.setAttribute('aria-label',open?'Close menu':'Open menu');
+    menuBtn.innerHTML='<svg class="svgi"><use href="#'+(open?'i-x':'i-menu')+'"/></svg>';
+  }
+  menuBtn.addEventListener('click',function(){setMenu(!menu.classList.contains('open'))});
+  function route(first){
+    var key = (location.hash||'#home').replace('#','') || 'home';
+    var page = document.getElementById('page-'+key);
+    if(!page){ key='notfound'; page=document.getElementById('page-notfound'); }
+    pages.forEach(function(p){p.classList.toggle('on',p===page)});
+    var t = page.getAttribute('data-title'); if(t){ var d=document.createElement('textarea'); d.innerHTML=t; document.title=d.value; }
+    navLinks.forEach(function(a){ if(a.getAttribute('href')==='#'+key) a.setAttribute('aria-current','page'); else a.removeAttribute('aria-current'); });
+    setMenu(false);
+    if(!first) window.scrollTo(0,0);
+  }
+  window.addEventListener('hashchange',function(){route(false)});
+  route(true);
+  $('#yr').textContent = new Date().getFullYear();
+
+  /* ---- copy number ---- */
+  $('#copyPhone').addEventListener('click',function(){
+    var label=$('#copyLabel'), txt='+91 70916 52065';
+    function done(ok){label.textContent=ok?'Copied':'Select the number above'; setTimeout(function(){label.textContent='Copy number'},2200)}
+    function fallback(){ try{ var r=document.createRange(); r.selectNodeContents($('#phoneText')); var s=getSelection(); s.removeAllRanges(); s.addRange(r); done(false);}catch(e){done(false)} }
+    if(navigator.clipboard && navigator.clipboard.writeText){ navigator.clipboard.writeText(txt).then(function(){done(true)},fallback); } else fallback();
+  });
+
+  /* ---- booking form ---- */
+  var form = $('#bookForm'), sel = $('#service');
+  sel.innerHTML = '<option value="">Select a service</option>' + SERVICES.map(function(s){return '<option>'+esc(s.name)+'</option>'}).join('') + '<option>'+esc(OTHER)+'</option>';
+  function todayISO(){var d=new Date(); var m=String(d.getMonth()+1).padStart(2,'0'), day=String(d.getDate()).padStart(2,'0'); return d.getFullYear()+'-'+m+'-'+day}
+  $('#date').min = todayISO();
+  function normPhone(v){
+    var d=String(v||'').replace(/\D/g,'');
+    if(d.indexOf('0091')===0) d=d.slice(4);
+    else if(d.indexOf('91')===0 && d.length===12) d=d.slice(2);
+    else if(d.charAt(0)==='0' && d.length===11) d=d.slice(1);
+    return d;
+  }
+  var ORDER=['name','phone','service','date','time','location','consent'];
+  function validate(v){
+    var e={};
+    if(v.name.trim().length<2) e.name='Please enter your name (at least 2 characters).';
+    if(!/^[6-9]\d{9}$/.test(normPhone(v.phone))) e.phone='Enter a valid 10-digit Indian mobile number, for example 98765 43210.';
+    if(!v.service) e.service='Please choose a service or select the discuss option.';
+    if(!v.date) e.date='Please choose a preferred date.'; else if(v.date<todayISO()) e.date='The preferred date cannot be in the past.';
+    if(!v.time) e.time='Please choose a preferred time.';
+    if(v.location.trim().length<8) e.location='Please enter the area or address for the visit (at least 8 characters).';
+    if(!v.consent) e.consent='Please tick the box to confirm you have read the privacy notice.';
+    return e;
+  }
+  function message(v){
+    return ['Hello '+BUSINESS+', I would like to request a home-service booking.','',
+      'Name: '+v.name.trim(),'Phone: +91 '+normPhone(v.phone),'Service: '+v.service,
+      'Preferred date: '+v.date,'Preferred time: '+v.time,'Location: '+v.location.trim(),'',
+      'Please let me know if this is available and what the price is. I understand this request is not confirmed until you reply.'].join('\n');
+  }
+  function showErrors(e){
+    ORDER.forEach(function(k){
+      var p=$('#'+k+'-error'), f=$('#'+k);
+      if(e[k]){p.textContent=e[k];p.hidden=false;f.setAttribute('aria-invalid','true');f.setAttribute('aria-describedby',k+'-error')}
+      else{p.hidden=true;f.removeAttribute('aria-invalid');f.removeAttribute('aria-describedby')}
+    });
+    var keys=ORDER.filter(function(k){return e[k]});
+    $('#errSummary').innerHTML = keys.length ? '<div class="alert err"><svg class="svgi"><use href="#i-warn"/></svg><div><strong>Please fix the following:</strong><ul>'+keys.map(function(k){return '<li><a href="#" data-f="'+k+'">'+esc(e[k])+'</a></li>'}).join('')+'</ul></div></div>' : '';
+    return keys;
+  }
+  $('#errSummary').addEventListener('click',function(ev){
+    var a=ev.target.closest('a[data-f]'); if(!a) return; ev.preventDefault(); $('#'+a.getAttribute('data-f')).focus();
+  });
+  form.addEventListener('input',function(ev){
+    var k=ev.target.id; if(ORDER.indexOf(k)>-1){var p=$('#'+k+'-error'); if(p && !p.hidden){p.hidden=true; ev.target.removeAttribute('aria-invalid')}}
+  });
+  form.addEventListener('submit',function(ev){
+    ev.preventDefault();
+    var v={name:$('#name').value,phone:$('#phone').value,service:sel.value,date:$('#date').value,time:$('#time').value,location:$('#location').value,consent:$('#consent').checked};
+    var keys=showErrors(validate(v));
+    var res=$('#result');
+    if(keys.length){res.innerHTML='';$('#'+keys[0]).focus();return}
+    var url='https://wa.me/'+WA+'?text='+encodeURIComponent(message(v));
+    res.innerHTML='<div class="alert ok"><svg class="svgi"><use href="#i-ok"/></svg><div><strong>Your WhatsApp message is ready.</strong><p>Tap the button to open WhatsApp, then press send there. This is not a confirmed booking until the business replies.</p>'+
+      '<p style="margin-top:.8rem"><a class="btn btn-w" href="'+url+'" target="_blank" rel="noopener noreferrer"><svg class="svgi"><use href="#i-chat"/></svg> Open WhatsApp</a></p></div></div>';
+  });
+})();
+</script>
+
+</body></html>
